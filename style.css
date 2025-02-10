@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #674cff7c, #00946f)
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#locationInput {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#locationInput:focus {
+    outline: none;
+    border-color: #2196F3;
+}
+
+#locationInput::placeholder {
+    color: #aaa;
+}
+
+#searchButton {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #1565C0
+}
+
+.weather-info {
+    margin-top: 20px;
+    display: none;
+}
+
+/*Display weather information */
+
+#location {
+    font-size: 36px;
+    margin-top: 5px;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+#temperature {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 8px 0;
+    color:rgb(0, 0, 0)
+}
+
+#description {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 0)
+}
+
+#feels-like-temp {
+    font-size: 16px;
+    color: rgb(1, 3, 94);
+}
+
+#wind-speed {
+    font-size: 16px;
+    color: rgb(1, 64, 73);
+}
+
+#wind-direction {
+    font-size: 16px;
+    color: rgb(1, 64, 73);
+}
+
+#humidity {
+    font-size: 16px;
+    color: rgb(61, 45, 0);
+}
+
+#pressure {
+    font-size: 16px;
+    color: rgb(48, 1, 66);
+}
+
+#visibility {
+    font-size: 16px;
+    color: rgb(16, 58, 0);
+}
+
+#sunrise {
+    font-size: 16px;
+    color: rgb(158, 84, 0);
+}
+
+#sunset {
+    font-size: 16px;
+    color: rgb(158, 0, 0);
+}
+
+#date {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
